@@ -1,3 +1,5 @@
+const defaultTheme = require('tailwindcss/defaultTheme')
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -7,10 +9,16 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        rubik: ['Rubik', ...defaultTheme.fontFamily.sans],
+      },
+      colors: {
+        'primary-color': '#212830',
+        'teal-colorish': '#1DA599',
+        'yellowish-color': '#FFC265',
+      },
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'hero-pattern': "url('/images/hero_img.png')",
       },
     },
   },
