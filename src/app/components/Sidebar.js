@@ -43,9 +43,3 @@ function Sidebar() {
 }
 
 export default Sidebar
-
-// ${menuOpen ? 'flex' : 'hidden'}
-
-/* className={` ${
-  menuOpen ? 'flex translate-x-0' : 'hidden translate-x-full'
-}`} */

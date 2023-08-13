@@ -2,3 +2,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.backgroundPeach {
+  background: linear-gradient(180deg, rgba(248, 246, 237, 0) 0%, #f8f6ed 100%);
+  padding-bottom: 6.25rem;
+}
+
+.slick-track {
+  display: flex !important;
+  gap: 25px;
+  background-color: inherit !important;
+}

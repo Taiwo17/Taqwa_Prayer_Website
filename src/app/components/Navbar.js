@@ -27,7 +27,7 @@ function Navbar() {
     <>
       <nav className='top-0 left-0 px-8 py-8 md:px-12 h-[80px] bg-white z-10 fixed w-full lg:px-[80px] lg:h-[100px]'>
         <header className='relative flex justify-between items-center'>
-          <div className='shrink-0 self-start'>
+          <div className='shrink-0'>
             <Link href='/'>
               <img src='../../../images/logo.png' alt='logo image' />
             </Link>
